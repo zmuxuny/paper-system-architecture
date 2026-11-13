@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "id": "evidence-atlas-overview",
+    "title": "Evidence Atlas: documents to cited answers",
+    "family": "systems",
+    "kind": "architecture",
+    "figure_kind": "whole-system",
+    "column": "double",
+    "template": "custom",
+    "direction": "mixed",
+    "palette": "custom",
+    "step_markers": "none"
+  },
+  "nodes": [
+    {
+      "id": "documents",
+      "label": "Versioned source documents"
+    },
+    {
+      "id": "question",
+      "label": "User question"
+    },
+    {
+      "id": "segment",
+      "label": "Parse and segment documents"
+    },
+    {
+      "id": "embedding",
+      "label": "Encode chunk text into vectors"
+    },
+    {
+      "id": "index",
+      "label": "Store searchable chunks and provenance"
+    },
+    {
+      "id": "search",
+      "label": "Encode query and retrieve chunks"
+    },
+    {
+      "id": "evidence",
+      "label": "Assemble selected evidence with source identifiers"
+    },
+    {
+      "id": "response",
+      "label": "Draft answer and check citation targets"
+    }
+  ],
+  "containers": [
+    {
+      "id": "inputs",
+      "label": "Inputs"
+    },
+    {
+      "id": "indexing",
+      "label": "Index construction \u00b7 offline"
+    },
+    {
+      "id": "retrieval",
+      "label": "Evidence-grounded response \u00b7 online"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "title",
+      "label": "Evidence Atlas: documents to cited answers"
+    },
+    {
+      "id": "takeaway-0",
+      "label": "Visible structure"
+    },
+    {
+      "id": "takeaway-1",
+      "label": "Distinct phases"
+    },
+    {
+      "id": "takeaway-2",
+      "label": "Traceable evidence"
+    }
+  ]
+}

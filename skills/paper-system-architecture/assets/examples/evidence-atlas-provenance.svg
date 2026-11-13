@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" font-family="Arial, DejaVu Sans, sans-serif" font-size="22" fill="#26313B" stroke-linejoin="round" stroke-linecap="round">
+<title>Evidence Atlas: a citation is a traceable span</title>
+<desc>Original illustrative document system with synthetic content.</desc>
+<defs>
+<marker id="arrow-ink" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="7" markerHeight="6" orient="auto"><path d="M0 0 L10 4 L0 8 Z" fill="#26313B"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="7" markerHeight="6" orient="auto"><path d="M0 0 L10 4 L0 8 Z" fill="#366B9A"/></marker>
+<marker id="arrow-green" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="7" markerHeight="6" orient="auto"><path d="M0 0 L10 4 L0 8 Z" fill="#587B4D"/></marker>
+<marker id="arrow-purple" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="7" markerHeight="6" orient="auto"><path d="M0 0 L10 4 L0 8 Z" fill="#80659C"/></marker>
+</defs>
+<rect x="0" y="0" width="1600" height="900" rx="6" fill="#FFFFFF" stroke="none" stroke-width="1.3"/>
+<g id="a:title">
+<text x="40" y="64" font-size="36" fill="#26313B" font-weight="bold" text-anchor="start">Evidence Atlas: a citation is a traceable span</text>
+</g>
+<text x="1560" y="61" font-size="16" fill="#57616D" font-weight="normal" text-anchor="end">ILLUSTRATIVE SYSTEM</text>
+<line x1="40" y1="94" x2="1560" y2="94" stroke="#D9DFE4" stroke-width="1"/>
+<g id="c:source-region">
+<rect x="40" y="140" width="345" height="660" rx="9" fill="#FFFFFF" stroke="#B58B54" stroke-width="1.3"/>
+<path d="M49 140 H376 Q385 140 385 149 V183 H40 V149 Q40 140 49 140 Z" fill="#FAEDDE" stroke="none" stroke-width="0"/>
+<text x="212.5" y="169" font-size="24" fill="#26313B" font-weight="bold" text-anchor="middle">1 · Source document</text>
+</g>
+<g id="c:chunk-region">
+<rect x="420" y="140" width="345" height="660" rx="9" fill="#FFFFFF" stroke="#587B4D" stroke-width="1.3"/>
+<path d="M429 140 H756 Q765 140 765 149 V183 H420 V149 Q420 140 429 140 Z" fill="#EAF2E2" stroke="none" stroke-width="0"/>
+<text x="592.5" y="169" font-size="24" fill="#26313B" font-weight="bold" text-anchor="middle">2 · Chunk + provenance</text>
+</g>
+<g id="c:citation-region">
+<rect x="800" y="140" width="380" height="660" rx="9" fill="#FFFFFF" stroke="#366B9A" stroke-width="1.3"/>
+<path d="M809 140 H1171 Q1180 140 1180 149 V183 H800 V149 Q800 140 809 140 Z" fill="#E7F1F8" stroke="none" stroke-width="0"/>
+<text x="990.0" y="169" font-size="24" fill="#26313B" font-weight="bold" text-anchor="middle">3 · Evidence to answer</text>
+</g>
+<g id="n:source">
+<rect x="62" y="209" width="301" height="484" rx="5" fill="#FFFFFF" stroke="#26313B" stroke-width="1.3"/>
+<text x="84" y="246" font-size="24" fill="#26313B" font-weight="bold" text-anchor="start">D2 · notes.md</text>
+<rect x="274" y="223" width="65" height="32" rx="4" fill="#EEE7F5" stroke="#80659C" stroke-width="1.3"/>
+<text x="306" y="246" font-size="20" fill="#80659C" font-weight="bold" text-anchor="middle">v2</text>
+<line x1="83" y1="269" x2="340" y2="269" stroke="#929DA8" stroke-width="1"/>
+<rect x="74" y="367" width="277" height="107" rx="4" fill="#EAF2E2" stroke="#587B4D" stroke-width="1.3"/>
+<text x="86" y="309" font-size="18" fill="#929DA8" font-weight="normal" text-anchor="start">01</text>
+<text x="119" y="309" font-size="18" fill="#26313B" font-weight="normal" text-anchor="start">A source has a stable ID.</text>
+<text x="86" y="361" font-size="18" fill="#929DA8" font-weight="normal" text-anchor="start">02</text>
+<text x="119" y="361" font-size="18" fill="#26313B" font-weight="normal" text-anchor="start">Text is split into chunks.</text>
+<text x="86" y="413" font-size="18" fill="#929DA8" font-weight="normal" text-anchor="start">03</text>
+<text x="119" y="413" font-size="18" fill="#26313B" font-weight="normal" text-anchor="start">Each chunk retains</text>
+<text x="86" y="465" font-size="18" fill="#929DA8" font-weight="normal" text-anchor="start">04</text>
+<text x="119" y="465" font-size="18" fill="#26313B" font-weight="normal" text-anchor="start">its source line range.</text>
+<text x="86" y="517" font-size="18" fill="#929DA8" font-weight="normal" text-anchor="start">05</text>
+<text x="119" y="517" font-size="18" fill="#26313B" font-weight="normal" text-anchor="start">A citation names that span.</text>
+<text x="86" y="569" font-size="18" fill="#929DA8" font-weight="normal" text-anchor="start">06</text>
+<text x="119" y="569" font-size="18" fill="#26313B" font-weight="normal" text-anchor="start">Updates create a version.</text>
+<line x1="83" y1="616" x2="338" y2="616" stroke="#929DA8" stroke-width="1"/>
+<text x="84" y="649" font-size="19" fill="#587B4D" font-weight="bold" text-anchor="start">Selected span: lines 3–4</text>
+<text x="212" y="741" font-size="21" fill="#B58B54" font-weight="bold" text-anchor="middle">Preserve document identity</text>
+</g>
+<g id="n:record">
+<rect x="442" y="209" width="301" height="211" rx="6" fill="#FFFFFF" stroke="#587B4D" stroke-width="1.3"/>
+<text x="465" y="244" font-size="25" fill="#26313B" font-weight="bold" text-anchor="start">Chunk c07</text>
+<line x1="464" y1="258" x2="721" y2="258" stroke="#929DA8" stroke-width="1"/>
+<text x="464" y="292" font-size="19" fill="#57616D" font-weight="normal" text-anchor="start">document</text>
+<text x="720" y="292" font-size="21" fill="#587B4D" font-weight="bold" text-anchor="end">D2</text>
+<text x="464" y="325" font-size="19" fill="#57616D" font-weight="normal" text-anchor="start">version</text>
+<text x="720" y="325" font-size="21" fill="#587B4D" font-weight="bold" text-anchor="end">v2</text>
+<text x="464" y="358" font-size="19" fill="#57616D" font-weight="normal" text-anchor="start">line range</text>
+<text x="720" y="358" font-size="21" fill="#587B4D" font-weight="bold" text-anchor="end">3–4</text>
+<text x="464" y="391" font-size="19" fill="#57616D" font-weight="normal" text-anchor="start">chunk ID</text>
+<text x="720" y="391" font-size="21" fill="#587B4D" font-weight="bold" text-anchor="end">c07</text>
+<rect x="442" y="457" width="301" height="147" rx="6" fill="#EAF2E2" stroke="#587B4D" stroke-width="1.3"/>
+<text x="464" y="492" font-size="22" fill="#26313B" font-weight="bold" text-anchor="start">Text payload</text>
+<text x="464" y="537" font-size="22" fill="#26313B" font-weight="normal" text-anchor="start">Each chunk retains</text>
+<text x="464" y="572" font-size="22" fill="#26313B" font-weight="normal" text-anchor="start">its source line range.</text>
+<rect x="442" y="650" width="301" height="93" rx="6" fill="#FFFFFF" stroke="#587B4D" stroke-width="1.3" stroke-dasharray="5 4"/>
+<text x="592" y="683" font-size="23" fill="#587B4D" font-weight="bold" text-anchor="middle">One linked record</text>
+<text x="592" y="718" font-size="20" fill="#57616D" font-weight="normal" text-anchor="middle">text + source coordinates</text>
+<line x1="592" y1="421" x2="592" y2="455" stroke="#587B4D" stroke-width="1.7" marker-end="url(#arrow-green)"/>
+<line x1="592" y1="605" x2="592" y2="648" stroke="#587B4D" stroke-width="1.7" marker-end="url(#arrow-green)"/>
+</g>
+<g id="n:evidence-citation">
+<rect x="822" y="209" width="336" height="126" rx="6" fill="#FFFFFF" stroke="#366B9A" stroke-width="1.3"/>
+<text x="845" y="244" font-size="23" fill="#26313B" font-weight="bold" text-anchor="start">Selected evidence [1]</text>
+<text x="845" y="285" font-size="22" fill="#366B9A" font-weight="normal" text-anchor="start">D2 · v2 · lines 3–4</text>
+<text x="845" y="316" font-size="19" fill="#57616D" font-weight="normal" text-anchor="start">Chunk c07</text>
+<line x1="990" y1="336" x2="990" y2="365" stroke="#366B9A" stroke-width="1.7" marker-end="url(#arrow-blue)"/>
+<rect x="822" y="367" width="336" height="117" rx="6" fill="#E7F1F8" stroke="#366B9A" stroke-width="1.3"/>
+<text x="845" y="401" font-size="23" fill="#26313B" font-weight="bold" text-anchor="start">Draft statement</text>
+<text x="845" y="439" font-size="21" fill="#26313B" font-weight="normal" text-anchor="start">A chunk keeps its source</text>
+<text x="845" y="469" font-size="21" fill="#26313B" font-weight="normal" text-anchor="start">line range. [1]</text>
+<line x1="990" y1="485" x2="990" y2="518" stroke="#366B9A" stroke-width="1.7" marker-end="url(#arrow-blue)"/>
+<rect x="822" y="520" width="336" height="138" rx="6" fill="#FFFFFF" stroke="#366B9A" stroke-width="1.3"/>
+<text x="845" y="553" font-size="22" fill="#26313B" font-weight="bold" text-anchor="start">Resolve citation target</text>
+<circle cx="845" cy="586" r="11" fill="#F6FAF3" stroke="#587B4D" stroke-width="1.4"/>
+<path d="M839 586 L844 591 L852 580" fill="none" stroke="#587B4D" stroke-width="1.8"/>
+<text x="867" y="593" font-size="18" fill="#26313B" font-weight="normal" text-anchor="start">Document and version exist</text>
+<circle cx="845" cy="625" r="11" fill="#F6FAF3" stroke="#587B4D" stroke-width="1.4"/>
+<path d="M839 625 L844 630 L852 619" fill="none" stroke="#587B4D" stroke-width="1.8"/>
+<text x="867" y="632" font-size="18" fill="#26313B" font-weight="normal" text-anchor="start">Lines 3–4 identify the span</text>
+<line x1="990" y1="659" x2="990" y2="691" stroke="#587B4D" stroke-width="1.7" marker-end="url(#arrow-green)"/>
+<rect x="822" y="693" width="336" height="50" rx="6" fill="#EAF2E2" stroke="#587B4D" stroke-width="1.3"/>
+<text x="990" y="725" font-size="23" fill="#587B4D" font-weight="bold" text-anchor="middle">Answer + source link [1]</text>
+</g>
+<path d="M364 420 H402 V315 H440" fill="none" stroke="#587B4D" stroke-width="1.7" marker-end="url(#arrow-green)"/>
+<path d="M744 531 H782 V272 H820" fill="none" stroke="#366B9A" stroke-width="1.7" marker-end="url(#arrow-blue)"/>
+<g id="a:takeaway-0">
+<circle cx="1241" cy="209" r="4" fill="#366B9A" stroke="none" stroke-width="1.4"/>
+<text x="1260" y="218" font-size="26" fill="#26313B" font-weight="bold" text-anchor="start">Identity persists</text>
+<text x="1260" y="259" font-size="23" fill="#26313B" font-weight="normal" text-anchor="start">The same document,</text>
+<text x="1260" y="293" font-size="23" fill="#26313B" font-weight="normal" text-anchor="start">version and line span</text>
+<text x="1260" y="327" font-size="23" fill="#26313B" font-weight="normal" text-anchor="start">travel with the text.</text>
+</g>
+<g id="a:takeaway-1">
+<circle cx="1241" cy="431" r="4" fill="#366B9A" stroke="none" stroke-width="1.4"/>
+<text x="1260" y="440" font-size="26" fill="#26313B" font-weight="bold" text-anchor="start">Change is concrete</text>
+<text x="1260" y="481" font-size="23" fill="#26313B" font-weight="normal" text-anchor="start">A highlighted span</text>
+<text x="1260" y="515" font-size="23" fill="#26313B" font-weight="normal" text-anchor="start">becomes a structured</text>
+<text x="1260" y="549" font-size="23" fill="#26313B" font-weight="normal" text-anchor="start">evidence record.</text>
+</g>
+<g id="a:takeaway-2">
+<circle cx="1241" cy="653" r="4" fill="#366B9A" stroke="none" stroke-width="1.4"/>
+<text x="1260" y="662" font-size="26" fill="#26313B" font-weight="bold" text-anchor="start">Meaningful detail</text>
+<text x="1260" y="703" font-size="23" fill="#26313B" font-weight="normal" text-anchor="start">Every small object</text>
+<text x="1260" y="737" font-size="23" fill="#26313B" font-weight="normal" text-anchor="start">helps explain the</text>
+<text x="1260" y="771" font-size="23" fill="#26313B" font-weight="normal" text-anchor="start">citation mechanism.</text>
+</g>
+<text x="40" y="873" font-size="17" fill="#57616D" font-weight="normal" text-anchor="start">EVIDENCE ATLAS  /  fictional documents · original teaching example</text>
+<text x="1560" y="873" font-size="17" fill="#57616D" font-weight="normal" text-anchor="end">Paper System Architecture</text>
+</svg>

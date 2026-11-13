@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "id": "evidence-atlas-provenance",
+    "title": "Evidence Atlas: a citation is a traceable span",
+    "family": "systems",
+    "kind": "mechanism",
+    "figure_kind": "mechanism",
+    "column": "double",
+    "template": "custom",
+    "direction": "mixed",
+    "palette": "custom",
+    "step_markers": "none"
+  },
+  "nodes": [
+    {
+      "id": "source",
+      "label": "A fictional source with stable lines and version"
+    },
+    {
+      "id": "record",
+      "label": "Chunk c07 preserves source D2 version v2 lines 3 to 4"
+    },
+    {
+      "id": "evidence-citation",
+      "label": "Select evidence and attach a resolvable citation"
+    }
+  ],
+  "containers": [
+    {
+      "id": "source-region",
+      "label": "1 \u00b7 Source document"
+    },
+    {
+      "id": "chunk-region",
+      "label": "2 \u00b7 Chunk + provenance"
+    },
+    {
+      "id": "citation-region",
+      "label": "3 \u00b7 Evidence to answer"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "title",
+      "label": "Evidence Atlas: a citation is a traceable span"
+    },
+    {
+      "id": "takeaway-0",
+      "label": "Identity persists"
+    },
+    {
+      "id": "takeaway-1",
+      "label": "Change is concrete"
+    },
+    {
+      "id": "takeaway-2",
+      "label": "Meaningful detail"
+    }
+  ]
+}

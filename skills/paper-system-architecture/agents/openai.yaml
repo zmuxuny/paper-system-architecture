@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper System Architecture"
+  short_description: "Draw detailed research figures and editable technical slides"
+  default_prompt: "Use $paper-system-architecture to explain my system with a detailed, accurate research diagram in my requested editable format."
