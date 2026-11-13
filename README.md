@@ -11,6 +11,7 @@ An agent skill for turning a paper, codebase, or technical brief into an informa
 ## What it does
 
 - Organizes three levels of reading: architecture, mechanism, and concrete detail.
+- Combines semantic frames, recognizable object icons and concrete mechanism illustrations, with a [visual construction guide](skills/paper-system-architecture/references/visual-construction.md) for turning concepts into drawings.
 - Uses restrained pastel panels, graphite lines, meaningful icons throughout key components, and readable text.
 - Supports paper figures and technical slides, using image-concept exploration when a new spatial design is still open.
 - Keeps data, control, feedback, and ownership accurate.

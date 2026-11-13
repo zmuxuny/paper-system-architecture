@@ -15,6 +15,8 @@ Both examples use presentation layouts with a left diagram and right takeaways. 
 
 Use the organization and visual grammar. Replace the domain, labels, structures and algorithms with the new system's actual content.
 
+In the overview, inspect the offset document pages, chunk strips, vector-cell rows, index fields and ranked records inside the panels. In the mechanism example, follow the highlighted source lines into the structured record and citation. These object drawings make the labels concrete; the frames organize them. Use [visual-construction.md](visual-construction.md) to plan equivalent object and mechanism drawings for a new domain instead of copying the panel grid alone.
+
 The source generator is `tools/build_examples.py` in the repository root. It uses ordinary SVG primitives and CairoSVG for the previews; the skill's design instructions do not depend on running it.
 
 ## Public paper references

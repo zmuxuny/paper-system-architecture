@@ -12,6 +12,8 @@ The visual aim is simple: **understand the architecture at a glance, follow the 
 
 An abstract “process” box becomes informative when the actual input, operation, and resulting artifact are visible. Add only detail supported by the system. Example data can be synthetic, but identify it as an illustration rather than a measurement.
 
+Use [visual-construction.md](visual-construction.md) before layout to choose the actual drawings. Frames establish scope, icons identify entities, and structural/mechanism illustrations reveal what happens. The figure needs these complementary forms; a palette of attractive text boxes is not a substitute for the central mechanism drawing.
+
 ## Composition
 
 Allocate space by explanatory importance. A narrow context band, a dominant mechanism, and a compact result region often work well. A three-stage pipeline, an asymmetric overview, or an object-to-state walkthrough may fit better; let the content decide.

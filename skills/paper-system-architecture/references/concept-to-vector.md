@@ -27,6 +27,8 @@ Verified content:
 - Objects and owners: [entities and parent systems]
 - Main path: [input → operation → intermediate artifact → output]
 - Mechanism to expand: [structure and what actually changes]
+- Visual encoding: [key entity → recognizable icon or object; core operation →
+  structure, visible action and resulting state]
 - Timing and feedback: [one-time steps, repeated steps, availability of state]
 - Exact labels and interfaces: [verified short strings]
 - Connections: [source, target, data/control, trigger]

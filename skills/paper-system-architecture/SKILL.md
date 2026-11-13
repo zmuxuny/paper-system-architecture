@@ -21,13 +21,15 @@ For each arrow, know its source, destination, meaning, and trigger. Distinguish 
 
 ## Choose a visual profile
 
-- **White research figures and technical slides:** read [research-visual-language.md](references/research-visual-language.md), then inspect the relevant [example](references/examples.md). Use nested semantic panels, concrete internal structure, restrained pastel headers, and fine graphite lines.
+- **Default for research architecture and mechanism figures:** read the white research profile in [research-visual-language.md](references/research-visual-language.md), then actually inspect the relevant [example image](references/examples.md). Study its object drawings, local mechanisms and spatial hierarchy as well as its colors. Use this visual grammar for both standalone figures and presentations.
 - **Mineral Paper:** use the alternate palette in the same reference when a softly tinted paper field suits the request.
 - **User references:** distinguish content, structure, style, geometry, and exact assets. Read their organization as well as their colors. Adaptation does not imply pixel-perfect reproduction.
 
 Use three levels of reading: whole-system regions, local mechanisms, and concrete detail. Information density should come from meaningful objects and relationships, with enough space to distinguish them.
 
 ## Compose before routing
+
+Before placing panels, use [visual-construction.md](references/visual-construction.md) to map the key entities and operations to recognizable icons, concrete structures and visible changes. The final research figure should combine frames/connections, object icons and mechanism illustrations. A text-box flowchart is only a planning draft for this illustrated style; adding a small icon to each process box does not by itself expose the mechanism.
 
 Allocate the core mechanism the most space; keep supporting inputs and outputs compact. Expand a key operation into the actual structure it changes: document spans, graph edges, buffers, matrices, sequences, or another domain-appropriate object.
 
@@ -63,6 +65,8 @@ Actively enrich the figure with meaningful icons for key actors, inputs/outputs,
 ## Refine and finish
 
 Render the actual delivery format. Inspect the full figure for reading order and the affected regions for text, endpoints, line separation, and frame clearance. Check every delivered page; a validator that inspects one page does not establish quality for the whole deck.
+
+Also inspect expressive content: important objects should be visually recognizable and the central mechanism should have a concrete structural or transformation drawing. If only the labels explain it, revisit the visual encoding before polishing borders and colors. Preserve the readability rule: explanations belong outside the internal mechanism, with no tiny explanatory sentences squeezed below modules.
 
 Preserve approved regions while correcting the named issue. Fix observed defects and verify the change. Finish when the requested content, relations, legibility, and style are satisfied. There is no required number of iterations, defects, red-team findings, or self-score; zero findings can be a valid result.
 
