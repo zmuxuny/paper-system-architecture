@@ -15,7 +15,7 @@ Read the relevant project instructions and source material. Establish:
 - the objects, responsibilities, inputs, intermediate artifacts, and outputs;
 - the primary reading path and the mechanism worth expanding;
 - ownership boundaries, timing, and any loops or independent phases;
-- the requested medium and available space.
+- the intended use (standalone figure or presentation), output format, and available space.
 
 For each arrow, know its source, destination, meaning, and trigger. Distinguish data, control, and feedback. Ask a concise question when missing information affects correctness; continue independent work while waiting. Do not invent components to fill a composition.
 
@@ -33,19 +33,20 @@ Allocate the core mechanism the most space; keep supporting inputs and outputs c
 
 Use containment to express ownership and aligned groups to express related responsibilities. Show a state transition with a visible difference. Give feedback and decision branches independent space before filling the canvas with boxes.
 
-For slides, a compact title, dominant diagram, and a readable right-hand bullet column is a useful pattern. For paper figures, use the publication's final dimensions and verify at print size. Do not force slide proportions onto a narrow column.
+Choose layout by intended use, independently of file format. A standalone research figure can use `.pptx` as its editable vector source; compose it around the mechanism and final publication dimensions, with explanations in the caption or surrounding document.
 
-## Explore and author
+For presentation slides, default to a compact title, large left-hand diagram and right-hand round-bullet takeaways unless the brief specifies another layout. In PowerPoint, keep the left diagram's text, shapes and connectors native and editable, along with the right-hand text. Both uses require an editable diagram; a full-diagram screenshot does not meet that requirement.
 
-When the user requests an image concept, or a new composition benefits from visual exploration, use an available image-generation tool. Supply the verified entity/edge map and style references. Show a complete concept early, then rebuild text, shapes and connections in an editable source. Use [concept-to-vector.md](references/concept-to-vector.md) for the prompt scaffold and transition.
+## Default authoring route
 
-For an approved editable composition, make local vector changes directly. Choose the requested route:
+Use this route by default, with the composition determined by intended use:
 
-- **SVG:** native text, paths and grouped primitives with stable semantic IDs.
-- **Native PowerPoint:** create the SVG, then use an available converter. The optional multi-slide adapter and dependencies are documented in [native-powerpoint.md](references/native-powerpoint.md).
-- **draw.io:** use editable XML shapes, text and connectors with an available draw.io workflow; retain actual source and target ports.
+1. **Image concept when composition is open:** prefer an available image-generation tool to explore a new spatial design, using the verified entity/edge map and style references. If the layout is already established, proceed directly to vector authoring. Inspect a complete concept early when using this step. See [concept-to-vector.md](references/concept-to-vector.md).
+2. **Vector reconstruction:** use Python to build native SVG text, shapes, paths and stable semantic groups, with a companion JSON spec. Verify labels and connections against the source; image generation is neither technical verification nor automatic vector tracing.
+3. **Native PPT as the default editable export:** convert through the separately installed FigGenie engine and the bundled `scripts/export_native_deck.py` adapter into editable PowerPoint objects, unless the user requests another format. Preserve the standalone-figure or presentation layout chosen earlier. See [native-powerpoint.md](references/native-powerpoint.md) for dependencies and commands.
+4. **Actual-output review:** render the PPT with LibreOffice to PDF and Poppler to PNG, inspect every page, correct observed issues in the source, and re-export. Deliver native PPT with source SVG/spec and a clearly identified preview unless the user requests a different set.
 
-The core design workflow does not require another skill. Optional tooling must actually be available; do not describe a bitmap as native editable output.
+For an existing approved composition, edit the vector source and re-export; do not restart image generation for a label or connector fix. Explicit output requests take precedence: SVG-only delivery stops at a rendered SVG, and draw.io requests use an available editable draw.io workflow. If an image tool or converter is unavailable, state the missing step and use an available editable route without claiming the unavailable format was produced. The design instructions remain usable without the export dependencies.
 
 ## Make the mechanism legible
 
@@ -55,9 +56,9 @@ The core design workflow does not require another skill. Optional tooling must a
 - For parallel work, show independent progress and the point where results are consumed. Return feedback only to the stage that repeats.
 - Give conditions and result objects distinct destinations. Draw a junction only for a real merge.
 - Use straight edges for aligned objects. Otherwise use clean orthogonal routes with gentle bends and visible endpoints.
-- Keep labels short and readable; put longer explanations beside the figure. Enlarge or reorganize content before shrinking important text.
+- Across visual profiles, keep labels, interfaces, legends and necessary worked-example text readable. Keep explanatory sentences and summary copy outside the internal mechanism drawing: use presentation takeaways or a standalone figure's caption/surrounding text. Do not add tiny explanatory sentences beneath module names or squeeze summary prose into the diagram; enlarge or reorganize the drawing instead.
 
-Use colors consistently, restrained outlines, and a small coherent icon vocabulary. Match the reference's information organization rather than adding decoration.
+Actively enrich the figure with meaningful icons for key actors, inputs/outputs, tools and operations, paired with short labels. Use a coherent flat line-icon family with consistent strokes, accent colors and scale; expand the core mechanism with concrete object miniatures and state changes. Favor SVG paths or native shapes that remain editable in PPT. Preserve text size and connection clearances; do not impose an icon quota or decorate every minor label.
 
 ## Refine and finish
 

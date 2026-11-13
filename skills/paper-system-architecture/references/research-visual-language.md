@@ -54,9 +54,11 @@ These are starting values for a presentation canvas, not print-size requirements
 | Outer / inner corner radius | 8–10 / 4–8 |
 | Parallel long edge to boundary | About 20–30 units of separation |
 
-For a slide with takeaways, give roughly three quarters of the usable width to the diagram. Align the first bullet with the diagram's upper region. Use ordinary round bullets and concise explanations. Page count, logos, and institutions come from the actual brief.
+For a presentation slide, default to a large diagram on the left and takeaways on the right. Give roughly three quarters of the usable width to the diagram, align the first bullet with its upper region, and use ordinary round bullets. In PowerPoint, both the left diagram (text, shapes, connectors) and right takeaways must remain native and editable. Page count, logos, and institutions come from the actual brief.
 
-For a paper figure, start from the venue's dimensions and evaluate at final print size. Scale the composition and reflow labels; simply shrinking a slide makes its details unreadable.
+For a standalone research figure, compose the figure area around the mechanism and evaluate at the intended publication size. PowerPoint can hold this figure as editable vector objects; the `.pptx` format alone does not call for a presentation title, takeaway column or slide footer. Reflow labels for the intended dimensions instead of simply shrinking a presentation.
+
+For both uses and both visual profiles, keep object labels, interfaces, legends and necessary example text readable. Explanatory sentences and summary prose belong in presentation takeaways or the standalone figure's caption/surrounding document. Do not add tiny supporting prose inside the mechanism to increase density.
 
 ## Alternate Mineral Paper profile
 
@@ -75,7 +77,8 @@ Use the selected profile consistently. Change the palette only when the brief or
 ## Shapes and icons carry meaning
 
 - Use a document or code sheet for a produced artifact, an enclosing panel for ownership, and a distinct shape for a decision.
-- Simple line icons should explain a concept. A face, robot, or decorative illustration is useful only when it represents a real actor in the system.
+- Actively use recognizable icons for key actors, inputs/outputs, tools and operations, paired with short labels. Choose one flat line-icon family with consistent strokes, accent colors and scale. A face or robot represents an actual actor; a document, tool or data structure represents its corresponding object.
+- Use concrete object miniatures and state changes to enrich the core mechanism. Prefer SVG paths or native shapes so the icons remain editable in PPT. Preserve readable labels and clear routes instead of adding an icon to every minor label; no fixed icon count applies.
 - Repeated objects keep their geometry and color. Highlight the changed part rather than redesigning the entire object.
 - Show a source span, altered edge, new buffer state, or another concrete change when explaining a transformation.
 - Use software metaphors as software. Avoid unnecessary mechanical housings, screws, or metallic effects.

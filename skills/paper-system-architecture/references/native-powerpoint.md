@@ -1,6 +1,8 @@
-# Optional native PowerPoint export
+# Native PowerPoint export in the default route
 
-Author the SVG with native text, paths, primitive shapes, and stable semantic groups. The optional adapter `scripts/export_native_deck.py` combines pages using an installed [FigGenie](https://github.com/Sleepy-Avacado/FigGenie-paper-diagram-skill) converter. FigGenie is a separate dependency and is not vendored here.
+Use Python-authored SVG plus a semantic JSON spec and native PowerPoint export as the default production route. Image-concept exploration precedes vector authoring when the spatial design is still open. Author the SVG with native text, paths, primitive shapes, and stable semantic groups, including editable vector icons. The bundled adapter `scripts/export_native_deck.py` combines pages using an installed [FigGenie](https://github.com/Sleepy-Avacado/FigGenie-paper-diagram-skill) converter. FigGenie is a separate dependency and is not vendored here. SVG-only and draw.io requests follow their requested formats.
+
+Choose composition by intended use before exporting. A standalone research figure may use PowerPoint as its editable vector source and should retain its figure layout. A presentation defaults to a large left diagram and right-hand round-bullet takeaways. In both cases the diagram's text, shapes and connectors must be native editable objects; the presentation's right-hand text must be editable too. The export format does not determine the page layout.
 
 ## Requirements
 
@@ -51,4 +53,4 @@ libreoffice -env:UserInstallation=file:///tmp/paper-figure-review \
 pdftoppm -scale-to 1920 -png build/evidence-atlas.pdf build/page
 ```
 
-Open every rendered page. Check arrow endpoints, readable text, border clearance, line separation, meaningful icon differences and page completeness. Verify the deck contains editable text and shapes rather than a full-page screenshot. Correct observed issues and finish when the requested result is satisfied.
+Open every rendered page. Check arrow endpoints, readable text, border clearance, line separation, meaningful icon differences and page completeness. Verify the diagram itself contains editable text, shapes and connectors, including the left diagram on a presentation slide; editable right-hand text alone is insufficient. Correct observed issues and finish when the requested result is satisfied.

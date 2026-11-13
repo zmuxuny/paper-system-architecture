@@ -11,10 +11,10 @@ An agent skill for turning a paper, codebase, or technical brief into an informa
 ## What it does
 
 - Organizes three levels of reading: architecture, mechanism, and concrete detail.
-- Uses restrained pastel panels, graphite lines, coherent symbols, and readable text.
-- Supports paper figures and technical slides, with optional image-concept exploration.
+- Uses restrained pastel panels, graphite lines, meaningful icons throughout key components, and readable text.
+- Supports paper figures and technical slides, using image-concept exploration when a new spatial design is still open.
 - Keeps data, control, feedback, and ownership accurate.
-- Guides SVG and draw.io authoring; includes an optional adapter for native editable PPT export.
+- Defaults to Python-authored SVG/spec → FigGenie native PPT → rendered-output review; includes the multi-page export adapter and supports explicit SVG-only or draw.io requests.
 - Refines observed defects and finishes when the requested result is satisfied, without mandatory iteration or finding quotas.
 
 The bundled examples are original illustrations of a fictional document system. The repository includes editable SVG, preview PNG, semantic JSON, and a generator.
@@ -28,10 +28,12 @@ Use paper-system-architecture to draw this project's method overview.
 Read the project instructions and relevant source before choosing the flow.
 Inspect the bundled examples and use the white research visual profile.
 Expand the core mechanism with concrete structures and state changes.
-Deliver editable SVG and a PNG preview.
+Use the default route and deliver native editable PPT, SVG/spec and a PNG preview.
 ```
 
-For a presentation, specify the slide count, aspect ratio, audience, and desired output. For a paper, specify the final column width. Ask for image-concept exploration if the composition is still open; the agent needs a separate image-generation capability for that step.
+For a presentation, specify the slide count, aspect ratio, audience, and desired output. For a paper, specify the final column width. The default production route is **Python-authored SVG + semantic JSON → FigGenie native PPT → LibreOffice/PDF/PNG inspection**. Use image-concept exploration first when a new spatial design is still open; settled layouts and existing-vector edits start directly from vector authoring. Image generation and PPT conversion need the separate capabilities listed below. Explicit format requests take precedence.
+
+Intended use and file format are separate choices. A standalone figure can use PowerPoint as an editable vector format. A presentation defaults to a large left diagram and right-hand round-bullet takeaways. In either PowerPoint use, the diagram's text, shapes and connectors remain native and editable, including the left diagram on a presentation slide; takeaways remain editable too.
 
 ## A worked mechanism
 

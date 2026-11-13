@@ -6,6 +6,8 @@ Open the images when using the skill. Reading their filenames is not a substitut
 
 The bundled **Evidence Atlas** examples use fictional documents to demonstrate common retrieval and citation concepts. They are authored for this repository and carry the repository's MIT license. They are not a research result or performance claim.
 
+Both examples use presentation layouts with a left diagram and right takeaways. For a standalone research figure, adapt the diagram to its publication dimensions and put explanations in the caption or surrounding document, including when the editable output is PowerPoint.
+
 | Example | Files | What to study |
 | --- | --- | --- |
 | Architecture | [SVG](../assets/examples/evidence-atlas-overview.svg), [PNG](../assets/examples/evidence-atlas-overview.png), [spec](../assets/examples/evidence-atlas-overview.json) | Separate indexing and query-time responsibilities; visible document/chunk/index objects; compact sources; large core; readable takeaways |
